@@ -1,0 +1,93 @@
+{
+    "id": 1,
+    "name": "dummy",
+    "type": "character",
+    "descriptor": "A dummy character for testing purposes.",
+    "currentState": "idle",
+    "stateFrame": 1,
+    "canBeControlled": true,
+
+    "spritepreview": "icon.png",
+    "anims": {
+        "idle": "idle",
+        "walk": "walk",
+        "run": "run",
+        "jump": "jump",
+        "fall": "fall",
+        "attack": "attack",
+        "hurt": "hurt",
+        "death": "death",
+        "ability1": "ability1",
+        "ability2": "ability2",
+        "ulti": "ulti"
+        },
+
+    "stats": {
+        "health": 100,
+        "magicResist": 10,
+        "physicalResist": 10,
+
+        "mana": 100,
+        "magicAmplify": 100,
+
+        "baseDamage": 10,
+        "baseAttackSpeed": 1,
+        "baseAmplify": 100,
+        "baseRange": 10,
+
+        "stamina": 100,
+        "staminaRegen": 20,
+        "speed": 5,
+        "jumpHeight": 10,
+        "canDoubleJump": true,
+
+        "UltiCapacity": 200,
+        "UltiPassiveRegen": 1,
+        "UltiActiveRegen": 10,
+        "UltiAbilityRegen": 20
+    },
+    "abilities":{
+        "ability1": {
+            "name": "Ability 1",
+            "descriptor": "A dummy ability for testing purposes.",
+            "type": "ability",
+            "sprite": "ability1.png",
+            "cooldown": 5,
+            "cost": 10,
+            "damage": 10,
+            "range": 100,
+            "speed": 10,
+            "duration": 1,
+            "amplify": 100,
+            "fx": "ability1fx.png"
+        },
+        "ability2": {
+            "name": "Ability 2",
+            "descriptor": "A dummy ability for testing purposes.",
+            "type": "ability",
+            "sprite": "ability2.png",
+            "cooldown": 10,
+            "cost": 20,
+            "damage": 20,
+            "range": 5000,
+            "speed": 10,
+            "duration": 2,
+            "amplify": 200,
+            "fx": "ability2fx.png"
+        },
+        "ulti": {
+            "name": "Ulti",
+            "descriptor": "A dummy ability for testing purposes.",
+            "type": "ability",
+            "sprite": "ulti.png",
+            "cooldown": 20,
+            "cost": 40,
+            "damage": 40,
+            "range": 2000,
+            "speed": 10,
+            "duration": 4,
+            "amplify": 400,
+            "fx": "ultifx.png"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "mall",
+    "background": [
+        {
+            "frame": 0,
+            "image": "1.png"
+        }
+    ],
+    "foreground": [
+        {
+            "frame": 0,
+            "image": "1.png"
+        },
+        {
+            "frame": 1,
+            "image": "2.png"
+        },
+        {
+            "frame": 2,
+            "image": "3.png"
+        }
+    ],
+    "ground": {
+        "frame": 0,
+        "image": "1.png"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "FeiLong",
+    "background": [
+        {
+            "frame": 0,
+            "image": "1.png"
+        }
+    ],
+    "foreground": [
+        {
+            "frame": 0,
+            "image": "1.png"
+        }
+    ],
+    "ground": {
+        "frame": 0,
+        "image": "1.png"
+    }
+}
