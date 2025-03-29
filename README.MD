@@ -74,3 +74,5 @@ CrapFighter is a 2D fighting game built using Python and Pygame. Players can sel
 - **Maps**: Located in `assets/stages/`. Each map has unique background, foreground, and ground assets defined in `map.json`.
 
 Enjoy the game!
+
+All assets are temporary and will be changed in near future, if something is wrong please notify my. Thank you.
